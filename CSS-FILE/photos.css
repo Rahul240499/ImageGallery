@@ -1,0 +1,26 @@
+img
+{
+    width:30%;
+    /* % is with respect to parent element in this case it's body */
+    /* if only image tags are there and nothing is between them, then there is a strange space
+    between them which can be avoided by using float  */
+
+    /* for margin we have 10% left as rest of the 90% is used by images so 
+    the left 10% will be used for margin */
+    /* That 10% will be divided in 6 parts so
+    10/6=>1.66 */
+    float:left;
+    margin:1.66%;
+}
+
+p
+{
+    font-family:Raleway;
+    margin-left:1.66%;
+    font-size:23px;
+    font-weight:800;
+    text-transform: uppercase;
+    border-bottom:3px solid #f1f1f1;
+    width:30%;
+    padding-bottom: 20px;
+}
